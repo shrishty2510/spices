@@ -391,7 +391,8 @@ const Items = [
             'Hing can also be used to balance out foods that are too sour, sweet, salty, or spicy',
         ],
         category: "SHAHI HING",
-        spice_url : "shahi-hing",
+        url : 'shahi-hing',
+        spice_url : "shahi-hing-asafoetida",
         spice: "Shahi Hing (Compounded Asafoetida)"
 
     },

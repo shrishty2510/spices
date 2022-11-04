@@ -131,19 +131,19 @@ export const Footer1 = () => {
                         <h4 className="footer-heading mb-4">LATEST PRODUCTS</h4>
                         <hr className='my-4' />
                         <div className="mb-4 d-flex">
-                            <Link className="img mr-4  rounded" to={`/product_page/pushp_masale/SOYA CHUNKS/Soya Granules`} ><img src={pic4} alt="" width="72px" className='px-2 rounded' /></Link>
+                            <Link className="img mr-4  rounded" to={`/product_page/pushp_masale/soya-chunks/soya-granules`} ><img src={pic4} alt="" width="72px" className='px-2 rounded' /></Link>
                             <div className="text">
                                 <p className="heading fintro">Checkout our new product soya granules &  more!</p>
                             </div>
                         </div>
                         <div className=" mb-4 d-flex ">
-                            <Link className="img mr-4  rounded" to={`/product_page/pushp_masale/WESTERN SPICES/Pusph Pasta Masala`} ><img src={pic1} alt="" width="72px" className='px-2 rounded' /></Link>
+                            <Link className="img mr-4  rounded" to={`/product_page/pushp_masale/western-spices/pushp-pasta-masala`} ><img src={pic1} alt="" width="72px" className='px-2 rounded' /></Link>
                             <div className="text">
                                 <p className="heading fintro">Checkout our amazing pasta masala & more!</p>
                             </div>
                         </div>
                         <div className=" mb-4 d-flex">
-                            <Link className="img mr-4  rounded" to={`/product_page/pushp_masale/WESTERN SPICES/Pusph Spice Booster Magical Masala`}  ><img src={pic2} alt="" width="72px" className='px-2 rounded' /></Link>
+                            <Link className="img mr-4  rounded" to={`/product_page/pushp_masale/western-spices/pushp-spice-booster-magical-masala`}  ><img src={pic2} alt="" width="72px" className='px-2 rounded' /></Link>
                             <div className="text">
                                 <p className="heading fintro">Checkout our amazing spice booster masala & more!</p>
                             </div>

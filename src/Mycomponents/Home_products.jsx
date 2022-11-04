@@ -74,7 +74,7 @@ export const Home_products = () => {
                 <div data-aos="flip-down" data-aos-offset="100" data-aos-duration="1000">  <p className="text-center home-product-title mb-5" >PUSHP MASALE <br/> (<span className="" style={{letterSpacing:'0.4rem',color:'#aa1008',}}>SWAD KA SUPERSTAR</span>) </p></div>
                 <div className="row " onMouseOver={event => home_background(event, 'one')}>
                     <div className=" col-sm-12 col-md-12   col-xl-5 offset-xl-1 text-center " data-aos="zoom-in" data-aos-offset="100" data-aos-duration="1000">
-                       <Link to={`/product_page/pushp_masale/SHAHI HING/Shahi Hing (Compounded Asafoetida)`}><LazyLoadImage src={pic1}  placeholderSrc={image1} effect="blur" alt="product" /></Link>
+                       <Link to={`/product_page/pushp_masale/shahi-hing/shahi-hing-asafoetida`}><LazyLoadImage src={pic1}  placeholderSrc={image1} effect="blur" alt="product" /></Link>
                     </div>
                     <div className=" col-sm-12 col-md-12   col-xl-6  mt-5 text-center"   data-aos="fade-left" data-aos-offset="100" data-aos-duration="1000">
                         
@@ -98,12 +98,12 @@ export const Home_products = () => {
                         </div>
                     </div>
                     <div className=" col-sm-12  col-md-12  col-xl-6 text-center" data-aos="zoom-in" data-aos-offset="100" data-aos-duration="1000">
-                    <Link to={`/product_page/pushp_masale/BLENDED SPICES/Achar Masala`}><LazyLoadImage src={pic7}  placeholderSrc={image1} effect="blur" alt="product" /></Link>
+                    <Link to={`/product_page/pushp_masale/blended-spices/achar-masala`}><LazyLoadImage src={pic7}  placeholderSrc={image1} effect="blur" alt="product" /></Link>
                     </div>
                 </div>
                 <div className="row"  onMouseOver={event => home_background(event, 'three')} >
                     <div className=" col-sm-12  col-md-12  col-xl-5 offset-xl-1 text-center" data-aos="zoom-in" data-aos-offset="100" data-aos-duration="1000">
-                    <Link to={`/product_page/pushp_masale/CTC SPICES/Poha Jeeravan Masala`}><LazyLoadImage src={pic8}  placeholderSrc={image1} effect="blur" alt="product" /></Link>
+                    <Link to={`/product_page/pushp_masale/ctc-spices/poha-jeeravan-masala`}><LazyLoadImage src={pic8}  placeholderSrc={image1} effect="blur" alt="product" /></Link>
                     </div>
                     <div className=" col-sm-12   col-xl-6 mt-5 text-center" data-aos="fade-left" data-aos-offset="100" data-aos-duration="1000">
                         
@@ -127,12 +127,12 @@ export const Home_products = () => {
                         </div>
                     </div>
                     <div className="  col-sm-12 col-md-12   col-xl-6 text-center" data-aos="zoom-in" data-aos-offset="100" data-aos-duration="1000">
-                    <Link to={`/product_page/pushp_masale/CTC SPICES/Kashmiri Mirch Powder`}><LazyLoadImage src={pic6}  placeholderSrc={image1} effect="blur" alt="product" /></Link>
+                    <Link to={`/product_page/pushp_masale/ctc-spices/kashmiri-mirch-powder`}><LazyLoadImage src={pic6}  placeholderSrc={image1} effect="blur" alt="product" /></Link>
                     </div>
                 </div>
                 <div className="row"  onMouseOver={event => home_background(event, 'five')} >
                     <div className=" col-sm-12 col-md-12   col-xl-5 offset-xl-1 text-center" data-aos="zoom-in" data-aos-offset="100" data-aos-duration="1000">
-                    <Link to={`/product_page/pushp_masale/QUICK FRY/Dal Tadka Masala`}> <LazyLoadImage src={pic2}  placeholderSrc={image1} effect="blur" alt="product" /></Link>
+                    <Link to={`/product_page/pushp_masale/quick-fry/dal-tadka-masala`}> <LazyLoadImage src={pic2}  placeholderSrc={image1} effect="blur" alt="product" /></Link>
                        
                     </div>
                     <div className=" col-sm-12  col-xl-6 mt-5 text-center" data-aos="fade-left" data-aos-offset="100" data-aos-duration="1000">
@@ -161,7 +161,7 @@ export const Home_products = () => {
                         </div>
                     </div>
                     <div className=" col-sm-12 col-md-12   col-xl-6 text-center" data-aos="zoom-in" data-aos-offset="100" data-aos-duration="1000">
-                    <Link to={`/product_page/pushp_masale/QUICK FRY/Shahi Paneer Masala`}> <LazyLoadImage src={pic5} placeholderSrc={image1} effect="blur" alt="product" /></Link>
+                    <Link to={`/product_page/pushp_masale/quick-fry/shahi-paneer-masala`}> <LazyLoadImage src={pic5} placeholderSrc={image1} effect="blur" alt="product" /></Link>
                        
                     </div>
                 </div>
