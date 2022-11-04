@@ -131,21 +131,31 @@ export const Footer1 = () => {
                         <h4 className="footer-heading mb-4">LATEST PRODUCTS</h4>
                         <hr className='my-4' />
                         <div className="mb-4 d-flex">
-                            <Link className="img mr-4  rounded" to={`/product_page/pushp_masale/soya-chunks/soya-granules`} ><img src={pic4} alt="" width="72px" className='px-2 rounded' /></Link>
+                            <img src={pic4} alt="" width="73px" className='px-2 rounded' />
                             <div className="text">
-                                <p className="heading fintro">Checkout our new product soya granules &  more!</p>
+                                <Link className="img mr-4  rounded" to={`/product_page/pushp_masale/soya-chunks/soya-granules`} style={{textDecoration:'none'}}>
+                                   <p className="heading fintro">Checkout our new product soya granules &  more!</p>
+                                </Link>
+                                
                             </div>
                         </div>
                         <div className=" mb-4 d-flex ">
-                            <Link className="img mr-4  rounded" to={`/product_page/pushp_masale/western-spices/pushp-pasta-masala`} ><img src={pic1} alt="" width="72px" className='px-2 rounded' /></Link>
+                            <img src={pic1} alt="" width="74px" className='px-2 rounded' />
+                           
                             <div className="text">
-                                <p className="heading fintro">Checkout our amazing pasta masala & more!</p>
+                                <Link className="img mr-4  rounded" to={`/product_page/pushp_masale/western-spices/pushp-pasta-masala`} style={{textDecoration:'none'}} >
+                                    <p className="heading fintro">Checkout our new amazing pasta masala & more!</p>
+                                </Link>
+                                
                             </div>
                         </div>
                         <div className=" mb-4 d-flex">
-                            <Link className="img mr-4  rounded" to={`/product_page/pushp_masale/western-spices/pushp-spice-booster-magical-masala`}  ><img src={pic2} alt="" width="72px" className='px-2 rounded' /></Link>
+                            <img src={pic2} alt="" width="74px" className='px-2 rounded' />
                             <div className="text">
+                            <Link className="img mr-4  rounded" to={`/product_page/pushp_masale/western-spices/pushp-spice-booster-magical-masala`} style={{textDecoration:'none'}}  >
                                 <p className="heading fintro">Checkout our amazing spice booster masala & more!</p>
+                            </Link>
+                              
                             </div>
                         </div>
 

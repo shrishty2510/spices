@@ -21,6 +21,14 @@ export const Home_products = () => {
         five:"",
         six:"",
     });
+    const [textc , settextc] = useState({
+        one: "",
+        two: "",
+        three: "",
+        four:"",
+        five:"",
+        six:"",
+    });
 
 
     const home_background = (event,value) => {
@@ -29,10 +37,18 @@ export const Home_products = () => {
                 ...backg, one: '#e31e24', two: "",
                 three: "",four:"",five:"",six:""
             });
+            settextc({
+                ...textc, one: 'whitesmoke', two: "",
+                three: "",four:"",five:"",six:""
+            });
         }
         else if (value === "two"){
             setbackg({
                 ...backg, two: '#e31e24', one: "",
+                three: "",four:"",five:"",six:""
+            });
+            settextc({
+                ...textc, one: '', two: "whitesmoke",
                 three: "",four:"",five:"",six:""
             });
         }
@@ -41,11 +57,19 @@ export const Home_products = () => {
                 ...backg, three: '#e31e24', one: "",
                 four: "",six:"",two:"",five:"",
             });
+            settextc({
+                ...textc, one: '', two: "",
+                three: "whitesmoke",four:"",five:"",six:""
+            });
         }
         else if (value === "four"){
             setbackg({
                 ...backg, four: '#e31e24', one: "",
                 three: "",six:"",five:"",two:""
+            });
+            settextc({
+                ...textc, one: '', two: "",
+                three: "",four:"whitesmoke",five:"",six:""
             });
         }
         else if (value === "five"){
@@ -53,19 +77,22 @@ export const Home_products = () => {
                 ...backg, five: '#e31e24', one: "",
                 three: "",two:"",four:"",six:"",
             });
+            settextc({
+                ...textc, one: '', two: "",
+                three: "",four:"",five:"whitesmoke",six:""
+            });
         }
         else if (value === "six"){
             setbackg({
                 ...backg, six: '#e31e24', one: "",
                 three: "",two:"",four:"",five:"",
             });
-        }
-        else if (value === "two"){
-            setbackg({
-                ...backg, two: '#e31e24', one: "",
-                three: "",
+            settextc({
+                ...textc, one: '', two: "",
+                three: "",four:"",five:"",six:"whitesmoke"
             });
         }
+        
        
     }
     return (
@@ -79,7 +106,7 @@ export const Home_products = () => {
                     <div className=" col-sm-12 col-md-12   col-xl-6  mt-5 text-center"   data-aos="fade-left" data-aos-offset="100" data-aos-duration="1000">
                         
                         <div className="">
-                            <p className='h3 product-home' style={{ backgroundColor : backg.one , display:'inline-block' }} >Shahi Hing </p>
+                            <p className='h3 product-home' style={{ backgroundColor : backg.one , color: textc.one, display:'inline-block' }} >Shahi Hing </p>
                         </div>
                         <div className="" >
                             <p >Hing or Asafoetida is notoriously known for its signature pungency and heavy flavour, however, this spice has the potential to change the entire texture and flavour of your dish.Pushp Shahi Hing is one of the finest hing available anywhere in the market.</p>
@@ -90,7 +117,7 @@ export const Home_products = () => {
                 <div className='row '  onMouseOver={event => home_background(event, 'two')}>
                     <div className=" offset-xl-1  col-md-12  col-sm-12  col-xl-5  mt-5  order-sm-2 order-2 order-xl-0 order-lg-2 order-md-2 text-center " data-aos="fade-right" data-aos-offset="100" data-aos-duration="1000">
                         <div className="">
-                            <p className='h3 product-home' style={{ backgroundColor : backg.two , display:'inline-block' }}>Achar Masala</p>
+                            <p className='h3 product-home' style={{ backgroundColor : backg.two , color: textc.two, display:'inline-block' }}>Achar Masala</p>
                         </div>
                         <div className="" >
                             <p >Prepare the most amazing pickles and condiments using Pushp Achar Masala, flavoursome blend of freshly grounded spices. A great side to Indian dishes, pickles add punch to the everyday food.</p>
@@ -108,7 +135,7 @@ export const Home_products = () => {
                     <div className=" col-sm-12   col-xl-6 mt-5 text-center" data-aos="fade-left" data-aos-offset="100" data-aos-duration="1000">
                         
                         <div className="">
-                            <p className='h3' style={{ backgroundColor : backg.three , display:'inline-block' }}>Poha Masala Jeeravan</p>
+                            <p className='h3' style={{ backgroundColor : backg.three ,color: textc.three, display:'inline-block' }}>Poha Masala Jeeravan</p>
                         </div>
                         <div className="">
                             <p >Pushp Poha Jeeravan Masala is a blend that is best used with Poha. Poha is cooked with a lot of ingredients including fennel seeds, cumin seeds, curry leaves and adding Pushp Poha Masala.</p>
@@ -119,7 +146,7 @@ export const Home_products = () => {
                 <div className='row'  onMouseOver={event => home_background(event, 'four')} >
                     <div className="offset-xl-1  col-sm-12 col-md-12   col-md-12 col-xl-5  order-sm-2 order-2 order-xl-0 order-lg-2 order-md-2 mt-5 text-center" data-aos="fade-right" data-aos-offset="100" data-aos-duration="1000">
                         <div className="">
-                            <p className='h3' style={{ backgroundColor : backg.four , display:'inline-block' }}>Kashmiri Mirch Powder</p>
+                            <p className='h3' style={{ backgroundColor : backg.four ,color: textc.four, display:'inline-block' }}>Kashmiri Mirch Powder</p>
                         </div>
                         <div>
                             <p  >The rich red colour of Kashmiri Mirch Powder adds both spicy flavour and colour to your food. A blend of medium spicy red pepper used in Tandoori preparations Pushp Kashmiri Mirch Powder eliminates the need of adding any artificial colour to your food.</p>
@@ -138,7 +165,7 @@ export const Home_products = () => {
                     <div className=" col-sm-12  col-xl-6 mt-5 text-center" data-aos="fade-left" data-aos-offset="100" data-aos-duration="1000">
                         
                         <div className="">
-                            <p className='h3' style={{ backgroundColor : backg.five , display:'inline-block' }}>Quick fry Dal Tadka Masala</p>
+                            <p className='h3' style={{ backgroundColor : backg.five , color: textc.five, display:'inline-block' }}>Quick fry Dal Tadka Masala</p>
                         </div>
                         <div className="">
                             <p >Add zing to your everyday daal with this blended spice  mix. A premix of quality tadka spices  blended in together, so all you need is Pushp Quick Fry  Dal Tadka Masala to make your daal delicious.</p>
@@ -153,7 +180,7 @@ export const Home_products = () => {
                 <div className='row'  onMouseOver={event => home_background(event, 'six')}>
                     <div className="offset-xl-1 col-sm-12 col-md-12   col-xl-5  order-sm-2 order-2 order-xl-0 order-lg-2 order-md-2 mt-5" data-aos="fade-right" data-aos-offset="100" data-aos-duration="1000">
                         <div className="text-center">
-                            <p className='h3' style={{ backgroundColor : backg.six , display:'inline-block' }}>Quick Fry Shahi Paneer Masala</p>
+                            <p className='h3' style={{ backgroundColor : backg.six ,color: textc.six, display:'inline-block' }}>Quick Fry Shahi Paneer Masala</p>
                         </div>
                         <div >
                             <p >Make Shahi Paneer within minutes with Pushp Quick Fry Shahi Paneer Masala. It is the perfect blend of freshly roasted and ground spices to add quick flavour & delicacy to your paneer gravy dish.</p>
