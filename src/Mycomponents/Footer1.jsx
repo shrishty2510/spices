@@ -133,7 +133,7 @@ export const Footer1 = () => {
                         <div className="mb-4 d-flex">
                             <img src={pic4} alt="" width="73px" className='px-2 rounded' />
                             <div className="text">
-                                <Link className="img mr-4  rounded" to={`/product_page/pushp_masale/soya-chunks/soya-granules`} style={{textDecoration:'none'}}>
+                                <Link className="img mr-4  rounded" to={`/product-page/pushp-masale/soya-chunks/soya-granules`} style={{textDecoration:'none'}}>
                                    <p className="heading fintro">Checkout our new product soya granules &  more!</p>
                                 </Link>
                                 
@@ -143,7 +143,7 @@ export const Footer1 = () => {
                             <img src={pic1} alt="" width="74px" className='px-2 rounded' />
                            
                             <div className="text">
-                                <Link className="img mr-4  rounded" to={`/product_page/pushp_masale/western-spices/pushp-pasta-masala`} style={{textDecoration:'none'}} >
+                                <Link className="img mr-4  rounded" to={`/product-page/pushp-masale/western-spices/pushp-pasta-masala`} style={{textDecoration:'none'}} >
                                     <p className="heading fintro">Checkout our new amazing pasta masala & more!</p>
                                 </Link>
                                 
@@ -152,7 +152,7 @@ export const Footer1 = () => {
                         <div className=" mb-4 d-flex">
                             <img src={pic2} alt="" width="74px" className='px-2 rounded' />
                             <div className="text">
-                            <Link className="img mr-4  rounded" to={`/product_page/pushp_masale/western-spices/pushp-spice-booster-magical-masala`} style={{textDecoration:'none'}}  >
+                            <Link className="img mr-4  rounded" to={`/product-page/pushp-masale/western-spices/pushp-spice-booster-magical-masala`} style={{textDecoration:'none'}}  >
                                 <p className="heading fintro">Checkout our amazing spice booster masala & more!</p>
                             </Link>
                               

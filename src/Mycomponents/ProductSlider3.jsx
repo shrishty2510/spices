@@ -57,7 +57,7 @@ export class OwlDemo3 extends Component {
                                    <div className="product-owl-carousel text-center" >
 
                                        <div className="text-center" style={{ display:'flex',alignItems:'center',justifyContent:'center'}}>
-                                           <Link to={`/product_page/pushp_masale/${filteredItem.url}/${filteredItem.spice_url}`}> <img src={filteredItem.image} alt="product_image"  /></Link>
+                                           <Link to={`/product-page/pushp-masale/${filteredItem.url}/${filteredItem.spice_url}`}> <img src={filteredItem.image} alt="product_image"  /></Link>
 
                                            
                                        </div>
@@ -79,7 +79,7 @@ export class OwlDemo3 extends Component {
                                     <div className="product-owl-carousel " >
 
                                         <div className="">
-                                            <Link to={`/product_page/pushp_masale/${filteredItem.url}/${filteredItem.spice_url}`}> <img src={filteredItem.image} alt="product_image" /></Link>
+                                            <Link to={`/product-page/pushp-masale/${filteredItem.url}/${filteredItem.spice_url}`}> <img src={filteredItem.image} alt="product_image" /></Link>
 
                                             <h6 style={{ marginLeft: '65px' }} className='text-danger my-2 '>{filteredItem.spice}</h6>
                                         </div>

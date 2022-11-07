@@ -56,7 +56,7 @@ export class OwlDemo4 extends Component {
                                    <div className="product-owl-carousel text-center" >
 
                                        <div className="text-center western-owl-carousel" >
-                                           <Link to={`/product_page/pushp_masale/${filteredItem.url}/${filteredItem.spice_url}`}> <img src={filteredItem.image}  alt="product_image"  /></Link>
+                                           <Link to={`/product-page/pushp-masale/${filteredItem.url}/${filteredItem.spice_url}`}> <img src={filteredItem.image}  alt="product_image"  /></Link>
                                            <h6  className='text-danger my-2 '>{filteredItem.spice}</h6>
 
                                            

@@ -47,8 +47,8 @@ function App() {
             <Route path='/about-us' element={< About />}></Route>
             <Route path='/contact-us' element={< Contact />}></Route>
             <Route path='/all-products' element={< Pusphcategory />}></Route>
-            <Route path='/pushp_product/:category_url' element={< PusphProduct />}></Route>
-            <Route path='/product_page/pushp_masale/:product_category_url/:product_name_url' element={< Product_page />}></Route>
+            <Route path='/pushp-product/:category_url' element={< PusphProduct />}></Route>
+            <Route exact path='/product-page/pushp-masale/:product_category_url/:product_name_url' element={< Product_page />}></Route>
             <Route path='/product-page/:product_url/:product_name_url' element={< Product_page2 />}></Route>
             <Route path='/munimji-masale' element={< Munimjimasale />}></Route>
             <Route path='/recipe/videos' element={< Video />}></Route>

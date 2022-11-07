@@ -96,32 +96,32 @@ export const Navbarmenu = () => {
                 <input type="checkbox" name="" id="btn-2" />
                 <ul className="third-ul">
                   <li>
-                    <NavLink to={`/pushp_product/${category_name1}/`}  onClick={navclose} >
+                    <NavLink to={`/pushp-product/${category_name1}/`}  onClick={navclose} >
                       CTC Spices
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink to={`/pushp_product/${category_name2}/`}  onClick={navclose} >
+                    <NavLink to={`/pushp-product/${category_name2}/`}  onClick={navclose} >
                       Blended Spices
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink to={`/pushp_product/${category_name3}/`}  onClick={navclose} >
+                    <NavLink to={`/pushp-product/${category_name3}/`}  onClick={navclose} >
                       Pure Spices
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink to={`/pushp_product/${category_name4}/`}  onClick={navclose} >
+                    <NavLink to={`/pushp-product/${category_name4}/`}  onClick={navclose} >
                       Soya Chunks
                     </NavLink>
                   </li>
                   <li>
-                  <NavLink to={`/pushp_product/${category_name6}/`}  onClick={navclose} >
+                  <NavLink to={`/pushp-product/${category_name6}/`}  onClick={navclose} >
                      Quick Fry
                     </NavLink>
                   </li>
                   <li>
-                  <NavLink to={`/pushp_product/${category_name5}/`}  onClick={navclose} >
+                  <NavLink to={`/pushp-product/${category_name5}/`}  onClick={navclose} >
                      Western Spices
                     </NavLink>
                   </li>

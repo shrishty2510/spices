@@ -43,11 +43,11 @@ const PusphProduct = () => {
                                     <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12" key={filteredItem.id} data-aos="fade-down" data-aos-easing="ease-in-out">
                                         <div className="card mb-5 " style={{ border: 'none' }}>
                                             <div className="card_img text-center">
-                                                <Link to={`/product_page/pushp_masale/${filteredItem.url}/${filteredItem.spice_url}`} > <img src={filteredItem.image} width='170' height='210' alt="product_image" /></Link>
+                                                <Link to={`/product-page/pushp-masale/${filteredItem.url}/${filteredItem.spice_url}`} > <img src={filteredItem.image} width='170' height='210' alt="product_image" /></Link>
                                             </div>
                                             <div className="card_info my-4">
                                                 <div><h6 className="text-center text-muted">{filteredItem.category}</h6></div>
-                                                <div className='text-center'><Link className="category-link h4 text-decoration-none" to={`/product_page/pushp_masale/${filteredItem.url}/${filteredItem.spice_url}`}>{filteredItem.spice}</Link></div>
+                                                <div className='text-center'><Link className="category-link h4 text-decoration-none" to={`/product-page/pushp-masale/${filteredItem.url}/${filteredItem.spice_url}`}>{filteredItem.spice}</Link></div>
 
                                             </div>
                                         </div>
